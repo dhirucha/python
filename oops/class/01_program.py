@@ -9,6 +9,9 @@ class Student:
         
     def play(self):
         print("pdh liya ab khelna hai")
+        
+    def __str__(self):
+        return print("Hi i am here")
 
 
 s1 = Student("Dhiru", 43, 90)
